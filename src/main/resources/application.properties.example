@@ -1,0 +1,5 @@
+spring.application.name=MarvellousPortal 
+spring.data.mongodb.host=localhost 
+spring.data.mongodb.port=27017 
+spring.data.mongodb.database=MarvellousFullStack 
+anthropic.api.key=YOUR_API_KEY_HERE 
