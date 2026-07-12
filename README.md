@@ -6,7 +6,7 @@
 
 * **Backend:** Java, Spring Boot
 * **Database:** MongoDB (NoSQL)
-* **Frontend:** Java-based client application
+* **Frontend:** Java-based client application!
 
 ---
 
