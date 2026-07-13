@@ -38,7 +38,8 @@ public class SecurityConfig {
                         .requestMatchers("/HealthCheck").permitAll()
                         .requestMatchers("/ws-edutrack/**").permitAll()
                         // Everything else needs JWT
-                        .anyRequest().authenticated()
+                        .anyRequest().permitAll()
+
                 )
                 .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
         return http.build();
